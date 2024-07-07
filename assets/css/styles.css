@@ -1,0 +1,92 @@
+/* Reset default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+}
+
+.music-playlist-container {
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    max-width: 1200px; /* Full width */
+    width: 100%;
+}
+
+.music-playlist-title {
+    font-size: 28px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.music-playlist-add-btn {
+    display: block;
+    margin: 0 auto;
+    font-size: 24px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.music-playlist-add-btn:hover {
+    background-color: #45a049;
+}
+
+.music-playlist-add-form {
+    display: none;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.music-playlist-add-form input {
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.music-playlist-submit-btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.music-playlist-submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.music-playlist-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.music-playlist-list li {
+    padding: 10px;
+    border-bottom: 1px solid #e1e4e8;
+    color: #333333;
+}
+
+.music-playlist-list li:last-child {
+    border-bottom: none;
+}
+
+.music-playlist-list li:hover {
+    background-color: #f0f0f0;
+}
