@@ -81,6 +81,7 @@ body {
     padding: 10px;
     border-bottom: 1px solid #e1e4e8;
     color: #333333;
+    position: relative; /* برای تنظیم مکان دکمه حذف */
 }
 
 .music-playlist-list li:last-child {
@@ -89,4 +90,67 @@ body {
 
 .music-playlist-list li:hover {
     background-color: #f0f0f0;
+}
+#songsContainer {
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    max-width: 1200px;
+    width: 100%;
+    display: none; /* ابتدایی به صورت مخفی */
+}
+
+.add-song-btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.add-song-btn:hover {
+    background-color: #45a049;
+}
+
+.songs-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.songs-table th,
+.songs-table td {
+    border: 1px solid #e1e4e8;
+    padding: 10px;
+    text-align: left;
+}
+
+.songs-table th {
+    background-color: #f4f7f6;
+    color: #333333;
+}
+
+.songs-table tbody tr:hover {
+    background-color: #f0f0f0;
+}
+
+.music-playlist-delete-btn {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #dc3545;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px; /* تغییر از margin-left به margin-right */
+    transition: background-color 0.3s ease;
+    position: absolute;
+    left: 10px; /* تغییر از right به left */
+    top: 50%;
+    transform: translateY(-50%);
 }

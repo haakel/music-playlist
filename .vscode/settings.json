@@ -1,0 +1,12 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#114069",
+    "titleBar.activeBackground": "#114069",
+    "titleBar.activeForeground": "#edfefc"
+  },
+  "material-icon-theme.folders.associations": {
+    "features":"plugin"
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true
+}
